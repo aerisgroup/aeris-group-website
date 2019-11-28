@@ -1,25 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/shared/Navbar";
+import Footer from "./components/shared/Footer";
+
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Landing from "./components/landing/Landing";
+import AboutUs from "./components/about/AboutUs";
+import ProductAndSolution from "./components/product/ProductAndSolution";
+import ContactUs from "./components/contact/ContactUs";
+
+//import products
+
+import FrozenShippers from "./components/product/aeris-product/FrozenShippers";
+import ChilledShippers from "./components/product/aeris-product/ChilledShippers";
+import AmbientShippers from "./components/product/aeris-product/AmbientShippers";
+import SecondaryPackaging from "./components/product/aeris-product/SecondaryPackaging";
+import DataLoggers from "./components/product/aeris-product/DataLoggers";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Fragment>
+        <Navbar />
+
+        <Switch>
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/about" component={AboutUs} />
+          <Route exact path="/contact" component={ContactUs} />
+          <Route path="/productandsolution" component={ProductAndSolution} />
+        </Switch>
+        <Footer />
+      </Fragment>
+    </Router>
   );
 }
 
