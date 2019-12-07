@@ -17,7 +17,7 @@ body {
 /* global color */
 
 .main-blue-color {
-  color: #00b4db;
+  color: rgb(3, 94, 168);
 }
 
 #landing {
@@ -176,8 +176,8 @@ body {
 
 #landingContactUs {
   height: 70vh;
-  background: #00b4db;
-  color: black;
+  background: #1c77ac;
+  color: #fff;
 }
 
 #landingContactUs a {
@@ -261,6 +261,8 @@ body {
 
 /*THE PRODUCT PAGE */
 
+/*this is for the charterpod font-awesome */
+
 #productAndSolution {
   padding-top: 56px;
 
@@ -286,57 +288,6 @@ body {
 
 /*this is for the card flip */
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #eee;
-  color: black;
-}
-
-.flip-card-front img {
-  object-fit: cover;
-  width: 100%;
-  height: 80%;
-}
-
-.flip-card-back {
-  background-color: #eee;
-  color: black;
-  transform: rotateY(180deg);
-}
-
-.flip-card-back p {
-  font-size: 0.8rem;
-  text-align: justify;
-}
-
 /*this is for the new card flip */
 
 .wrapper {
@@ -346,10 +297,9 @@ body {
 }
 
 .card-flip {
-  width: 420px;
-  height: 340px;
+  width: 300px;
+  height: 300px;
   margin: 1em;
-  perspective: 1500px;
 }
 .card .content {
   position: relative;
@@ -361,9 +311,6 @@ body {
 
 .more {
   display: none;
-}
-.more:checked ~ .content {
-  transform: rotateY(180deg);
 }
 
 .front,
@@ -536,23 +483,6 @@ body {
   backface-visibility: hidden;
   transition: 0.3s ease-in-out;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
-}
-.button:hover {
-  background-color: #fff;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  text-shadow: none;
-  color: #355cc9;
-}
-.button.return {
-  line-height: 3em;
-  color: #355cc9;
-  border-color: #355cc9;
-  text-shadow: none;
-}
-.button.return:hover {
-  background-color: #355cc9;
-  color: #fff;
-  box-shadow: none;
 }
 
 ::-webkit-scrollbar {

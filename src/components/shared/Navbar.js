@@ -46,6 +46,12 @@ const MainNavbar = () => {
                 >
                   data-loggers
                 </Link>
+                <Link
+                  to="/productandsolution/charterpod"
+                  className="nav-link mx-4 py-1"
+                >
+                  Charterpod Leasing
+                </Link>
               </NavDropdown>
               <Link to="/about" className="nav-link">
                 About Us

@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Modal } from "react-bootstrap";
 
-const ModalCard = () => {
+const ModalCard = props => {
+  const sectionStyle = {
+    backgroundImage: `url(${require(`../../img/products/${props.image}`)})`
+  };
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -12,34 +15,18 @@ const ModalCard = () => {
       <div class="card-flip card">
         <input type="checkbox" id="hi" class="more" aria-hidden="true" />
         <div class="content">
-          <div class="front">
+          <div class="front" style={sectionStyle}>
             <div class="inner">
-              <h2>"hi"</h2>
-
-              {/*<label class="button" aria-hidden="true">
-                Details
-              </label> */}
+              <h2>{props.title}</h2>
 
               <button className="button" onClick={handleShow}>
                 Learn More
               </button>
               <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                  <Modal.Title>Standard Shippers</Modal.Title>
+                  <Modal.Title>{props.title}</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolore eius enim laborum commodi tenetur saepe numquam a?
-                    Possimus, assumenda alias.
-                  </p>
-
-                  <img
-                    src={require("../../img/products/chilledShippers/activeShippers.jpg")}
-                    width="400"
-                    className="mx-auto d-block"
-                  />
-                </Modal.Body>
+                <Modal.Body>{props.description}</Modal.Body>
                 <Modal.Footer>
                   <Link to="/contact" className="btn btn-primary mx-auto">
                     Contact Us

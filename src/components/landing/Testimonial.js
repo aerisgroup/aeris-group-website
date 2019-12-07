@@ -11,10 +11,10 @@ const Partnership = () => {
   };
   return (
     <div id="partnership">
-      <h2 className="m-5 py-5">
+      <h2 className="mt-5">
         What Our <span className="main-blue-color">Clients </span>Say About Us
       </h2>
-      <Carousel responsive={responsive} className="m-5 py-5">
+      <Carousel responsive={responsive} className="my-5">
         <div className="testimonial">
           <div className="container">
             <h3 className="main-blue-color">Price & Value</h3>
@@ -30,7 +30,7 @@ const Partnership = () => {
         </div>
         <div className="testimonial">
           <div className="container">
-            <h3>Responsiveness</h3>
+            <h3 className="main-blue-color">Responsiveness</h3>
             <p className="lead">
               "You can count on Aeris to provide quick response for emergency
               requests"
@@ -43,7 +43,7 @@ const Partnership = () => {
         </div>
         <div className="testimonial">
           <div className="container">
-            <h3>Service</h3>
+            <h3 className="main-blue-color">Service</h3>
             <p className="lead">
               "Aeris service is excellent, it does not end when they sell us the
               goods."
@@ -55,7 +55,7 @@ const Partnership = () => {
         </div>
         <div className="testimonial">
           <div className="container">
-            <h3>Expertise</h3>
+            <h3 className="main-blue-color">Expertise</h3>
             <p className="lead">
               "Aeris is a willing partner in sharing their knowledge and
               expertise"
@@ -67,7 +67,7 @@ const Partnership = () => {
         </div>
         <div className="testimonial">
           <div className="container">
-            <h3>Product Feedback</h3>
+            <h3 className="main-blue-color">Product Feedback</h3>
             <p className="lead">
               "temperature ...... very stable and within the required range."
             </p>

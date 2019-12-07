@@ -47,6 +47,7 @@ const AboutUs = () => {
                 className="col-md-6 margin-top"
                 src={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
                 alt=""
+                style={{ objectFit: "contain" }}
               />
             </div>
           </div>
@@ -67,8 +68,9 @@ const AboutUs = () => {
 
               <img
                 className="col-md-6 margin-top"
-                src={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
+                src={require("../../img/landing/AerisGroupTeamMobile.png")}
                 alt=""
+                style={{ objectFit: "contain" }}
               />
             </div>
           </div>
@@ -102,9 +104,10 @@ const AboutUs = () => {
               </div>
 
               <img
-                className="col-md-6 margin-top"
-                src={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
+                className="col-md-6 "
+                src={require("../../img/landing/ourService/AerisGroupResearchAndDevelopment.jpg")}
                 alt=""
+                style={{ objectFit: "contain" }}
               />
             </div>
           </div>

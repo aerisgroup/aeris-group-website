@@ -6,6 +6,7 @@ import DataLoggers from "./aeris-product/DataLoggers";
 import FrozenShippers from "./aeris-product/FrozenShippers";
 import SecondaryPackaging from "./aeris-product/SecondaryPackaging";
 import ProductSlider from "./ProductSlider";
+import Charterpod from "./aeris-product/Charterpod";
 
 //import products
 
@@ -34,6 +35,7 @@ const ProductAndSolution = props => {
           path={`${props.match.path}/secondary-packaging`}
           component={SecondaryPackaging}
         />
+        <Route path={`${props.match.path}/charterpod`} component={Charterpod} />
       </Switch>
     </Fragment>
   );

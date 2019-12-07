@@ -5,10 +5,10 @@ const Credential = () => {
     <section id="credential">
       <div className="container">
         <h2 className="text-weight-bold m-5 pt-5">
-          You Can <span className="text-primary">Trust </span>Us
+          You Can <span className="main-blue-color">Trust </span>Us
         </h2>
 
-        <h3 className="lead m-5 pb-5">
+        <h3 className="lead m-5">
           We have been audited by several leading{" "}
           <span className="font-weight-bold">GDP/GMP</span> pharmaceutical
           companies and have <span className="font-weight-bold">UN/DG</span>{" "}
@@ -19,22 +19,9 @@ const Credential = () => {
         </h3>
         <div className="d-flex flex-wrap justify-content-around my-5">
           <img
-            src={require("../../img/landing/credential/certificationOne.png")}
+            src={require("../../img/landing/credential/iso-certification.jpg")}
             alt=""
-            width="265"
-            height="249"
-          />
-          <img
-            src={require("../../img/landing/credential/certificationTwo.png")}
-            alt=""
-            width="265"
-            height="190"
-          />
-          <img
-            src={require("../../img/landing/credential/PromisingSME.png")}
-            alt=""
-            width="265"
-            height="249"
+            width="300"
           />
         </div>
       </div>

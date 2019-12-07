@@ -97,6 +97,15 @@ const ProductSlider = () => {
             <p className="">Data Loggers</p>
           </Link>
         </div>
+        <div className="product-items secondary-packaging">
+          <Link
+            to="/productandsolution/charterpod"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <i className="mt-3 fas fa-box-open fa-4x"></i>
+            <p className="pt-1">Charterpod leasing</p>
+          </Link>
+        </div>
       </Carousel>
     </div>
   );

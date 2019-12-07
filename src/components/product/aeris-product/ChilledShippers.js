@@ -17,7 +17,7 @@ const ChilledShippers = () => {
             classified into four category namely,
           </p>
           <div className="d-flex justify-content-around flex-wrap">
-            <CardFlip
+            <ModalCard
               image="chilledShippers/standardShippers.png"
               title="Standard Shippers"
               description={
@@ -31,61 +31,53 @@ const ChilledShippers = () => {
                     steadiness of temperature sensitive products from outer
                     environment temperature.
                   </p>
-                  <img
-                    src={require("../../../img/products/chilledShippers/standardShippersDetail.png")}
-                  />
                 </div>
               }
             />
-            <CardFlip
+            <ModalCard
               image="chilledShippers/premiumShippers.png"
-              title="Premium Shippers / VIP Shippers"
+              title="Premium Shippers/ VIP Shippers"
               description={
                 <div>
                   <p>
-                    Standard chill shippers available from 0.3 Litres to 90
-                    Litres in-terms of obtainable product volume, shippers
-                    utilizing a common bill of materials like Expanded Poly
-                    styrene (EPS) and Extruded poly styrene (XPS) as thermal
-                    barrier along with cool packs to ensure the thermal
-                    steadiness of temperature sensitive products from outer
-                    environment temperature.
+                    The VIP shippers provide great stability performance for
+                    longer duration at an extreme weather condition. This system
+                    is able to withstand adverse temperature condition.
                   </p>
-                  <img
-                    src={require("../../../img/products/chilledShippers/premiumShippersDetail.png")}
-                    width="200"
-                  />
+                  <p>
+                    The VIP provides a good option for reusable purpose with
+                    high return on investment whilst ensuring your critical
+                    payload reaches its destination safely.
+                  </p>
+                  <div>
+                    <img
+                      src={require("../../../img/products/chilledShippers/premiumShippersDetail.png")}
+                    />
+                  </div>
                 </div>
               }
             />
-            <CardFlip
-              image="chilledShippers/activeShippers.jpg"
-              title="Active Shippers"
+            <ModalCard
+              image="ambientShippers/bulk-shipping-solution.png"
+              title="Bulk Shipping Solutions"
               description={
                 <div>
                   <p>
-                    Active shippers are usually reusable containers with
-                    compressors able to operate under 5°C or more up to 45°C
-                    ambient temperature with advanced set-point temperature
-                    control of 3°C with the power supply of DC12V; which can be
-                    supplied from car battery as well. Active shipper solutions
-                    enables it to be plugged in during a delay to destination,
-                    to keep product temperature safe through extreme conditions;
-                    they acts as portable chillers. Shipper is also equipped
-                    with automatic defrosting function after 24 hours of
-                    operation. Shippers undergone for actuation test, humidly
-                    test, low and high temperature storage test, vibration test
-                    and drop test to guarantee no compromise in function and
-                    appearance change even in adverse environmental issues.
+                    The cargo system specially designed for huge bulk shipments
+                    ensure safe transport of your large, pallet-size loads of
+                    temperature-controlled goods and solutions available for
+                    +2°C to +8°C. This system has been validated for summer and
+                    winter and targeted form 72 to 120 hours duration.
                   </p>
-                  <img
-                    src={require("../../../img/products/chilledShippers/activeShippersDetail.png")}
-                    width="200"
-                  />
+
+                  <div>
+                    <img
+                      src={require("../../../img/products/chilledShippers/premiumShippersDetail.png")}
+                    />
+                  </div>
                 </div>
               }
             />
-            <ModalCard />
           </div>
         </div>
       </div>
