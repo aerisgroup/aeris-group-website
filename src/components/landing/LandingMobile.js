@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const LandingMobile = () => {
   return (
@@ -19,18 +20,15 @@ const LandingMobile = () => {
               solutions to logistical and warehousing support
             </p>
             <div className="d-flex button-group justify-content-center">
-              <a
-                className="btn rounded-0 btn btn-success mr-3"
-                href="customer.html"
-              >
+              <Link to="/contact" className="btn rounded-0 btn btn-success">
                 Contact Us
-              </a>
-              <a
-                className="btn rounded-0  btn btn-success ml-3"
-                href="customer.html"
+              </Link>
+              <Link
+                to="/productandsolution/frozen-shippers"
+                className="btn rounded-0 btn btn-success ml-3"
               >
                 Look at our Product
-              </a>
+              </Link>
             </div>
           </Container>
         </div>

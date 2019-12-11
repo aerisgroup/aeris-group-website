@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LandingContactUs = () => {
   return (
@@ -6,9 +7,9 @@ const LandingContactUs = () => {
       <div className="row align-items-center h-100">
         <div className="col-6 mx-auto">
           <h2 className="pt-5">A Cold Chain Solution you can Trust</h2>
-          <a href="" className="btn">
+          <Link to="/contact" className="btn btn-primary ">
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
     </div>

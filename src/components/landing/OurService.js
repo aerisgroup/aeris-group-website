@@ -44,13 +44,13 @@ const OurService = () => {
         <ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
           title="Products"
-          description="Solutions to the Pharmaceutical and Biotechonology industries their Temperature control and Temperature sensitive products"
+          description="Cost effective solution and innovations that are proven to maintain temperatures of sensitive payloads well within the specified ranges"
           callToAction="product"
         />
         <ServiceBox
           image={require("../../img/landing/ourService/AerisGroupResearchAndDevelopment.jpg")}
           title="Testing and Validation"
-          description="Engineering R&D spearheads the latest packaging solution for the APAC changing market needs."
+          description="Our success is based on innovations in R&D, stringent Testing and Validation regime using our own in-house ESPEC Test Equipment Chamber and backed by independent third-party validation by TÜV SÜD PSB Compliance"
           callToAction="testing"
         />
         <ServiceBox
@@ -61,9 +61,10 @@ const OurService = () => {
         <ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
           title="Leasing Service"
-          description="Engineering R&D spearheads the latest packaging solution for the APAC changing market needs."
+          description="Users like the pay-per-use features, which mean they do not need to worry about managing and disposing of inventory since it is a subscription service"
           callToAction="productandsolution/charterpod"
         />
+
         <ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
           title="Conditioning"

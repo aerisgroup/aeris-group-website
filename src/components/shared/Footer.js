@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -59,38 +60,35 @@ const Footer = () => {
               style={{ width: "60px" }}
             />
             <p>
-              <a className="dark-grey-text" href="#!">
-                Frozen Shipper
-              </a>
+              <Link to="/productandsolution/frozen-shippers">
+                Frozen Shippers
+              </Link>
             </p>
             <p>
-              <a className="dark-grey-text" href="#!">
-                Chilled Shipper
-              </a>
+              <Link to="/productandsolution/chilled-shippers">
+                Chilled Shippers
+              </Link>
             </p>
             <p>
-              <a className="dark-grey-text" href="#!">
-                Ambient Shipper
-              </a>
+              <Link to="/productandsolution/ambient-shippers">
+                Ambient Shippers
+              </Link>
             </p>
             <p>
-              <a className="dark-grey-text" href="#!">
+              <Link to="/productandsolution/secondary-packaging">
                 Secondary Packaging
-              </a>
+              </Link>
             </p>
             <p>
-              <a className="dark-grey-text" href="#!">
-                Data Loggers
-              </a>
+              <Link to="/productandsolution/data-loggers">Data Loggers</Link>
             </p>
             <p>
-              <a className="dark-grey-text" href="#!">
+              <Link to="/productandsolution/charterpod">
                 Charterpod Leasing
-              </a>
+              </Link>
             </p>
           </div>
-
-          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          {/* <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 className="text-uppercase font-weight-bold">Useful links</h6>
             <hr
               className="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
@@ -116,7 +114,7 @@ const Footer = () => {
                 Help
               </a>
             </p>
-          </div>
+          </div>*/}
 
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 className="text-uppercase font-weight-bold">Contact</h6>

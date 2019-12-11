@@ -8,11 +8,12 @@ const ServiceBox = ({ image, title, description, callToAction, link }) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className="card my-3 mx-auto" style={{ width: "300px" }}>
+    <div className="service-card card my-3 mx-auto" style={{ width: "300px" }}>
       <img className="card-img-top" src={image} alt="Card image" />
       <div className="card-body">
-        <h4 className="card-title">{title}</h4>
-        <p className="card-text ">{description}</p>
+        <h5 className="card-title font-weight-bold">{title}</h5>
+        {/* */}
+        <p className="">{description}</p>
         {!callToAction ? (
           <Button variant="primary" onClick={handleShow}>
             Contact Us

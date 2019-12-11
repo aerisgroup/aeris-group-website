@@ -106,6 +106,20 @@ const ProductSlider = () => {
             <p className="pt-1">Charterpod leasing</p>
           </Link>
         </div>
+        <div className="product-items secondary-packaging">
+          <Link
+            to="/productandsolution/research-and-development"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <img
+              src={require("../../img/landing/research-and-development.jpg")}
+              alt=""
+              width="66"
+              height="66"
+            />
+            <p className="pt-1">Research and Development</p>
+          </Link>
+        </div>
       </Carousel>
     </div>
   );

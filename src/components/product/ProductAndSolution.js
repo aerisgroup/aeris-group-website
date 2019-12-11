@@ -7,6 +7,7 @@ import FrozenShippers from "./aeris-product/FrozenShippers";
 import SecondaryPackaging from "./aeris-product/SecondaryPackaging";
 import ProductSlider from "./ProductSlider";
 import Charterpod from "./aeris-product/Charterpod";
+import ResearchAndDevelopment from "./ResearchAndDevelopment";
 
 //import products
 
@@ -36,6 +37,10 @@ const ProductAndSolution = props => {
           component={SecondaryPackaging}
         />
         <Route path={`${props.match.path}/charterpod`} component={Charterpod} />
+        <Route
+          path={`${props.match.path}/research-and-development`}
+          component={ResearchAndDevelopment}
+        />
       </Switch>
     </Fragment>
   );

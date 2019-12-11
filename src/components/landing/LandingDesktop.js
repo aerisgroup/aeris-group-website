@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import MissionStatement from "./MissionStatement";
 
@@ -25,18 +26,15 @@ const LandingDesktop = () => {
               solutions to logistical and warehousing support
             </p>
             <div class="d-flex button-group justify-content-center">
-              <a
-                class="btn rounded-0 btn btn-success mr-3"
-                href="customer.html"
-              >
+              <Link to="/contact" className="btn rounded-0 btn btn-success">
                 Contact Us
-              </a>
-              <a
-                class="btn rounded-0  btn btn-success ml-3"
-                href="customer.html"
+              </Link>
+              <Link
+                to="/productandsolution/frozen-shippers"
+                className="btn rounded-0 btn btn-success ml-3"
               >
                 Look at our Product
-              </a>
+              </Link>
             </div>
           </Container>
         </Col>

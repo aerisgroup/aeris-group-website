@@ -24,33 +24,42 @@ class ContactUs extends React.Component {
                   <input type="hidden" name="form-name" value="contact" />
                   <p>
                     <label>Your Name: </label>
-                    <input type="text" name="name" className="form-control" />
+                    <input
+                      type="text"
+                      name="name"
+                      className="form-control p-4"
+                    />
                   </p>
                   <p>
                     <label>Your Email: </label>
-                    <input type="email" name="email" className="form-control" />
+                    <input
+                      type="email"
+                      name="email"
+                      className="form-control p-4"
+                    />
                   </p>
                   <p>
                     <label>Your Phone: </label>
-                    <input type="tel" name="phone" className="form-control" />
+                    <input
+                      type="tel"
+                      name="phone"
+                      className="form-control p-4"
+                    />
                   </p>
-                  <p>
-                    <label>Job Title: </label>
-                    <input type="text" name="title" className="form-control" />
-                  </p>
+
                   <p>
                     <label>Country: </label>
                     <input
                       type="text"
                       name="country"
-                      className="form-control"
+                      className="form-control p-4"
                     />
                   </p>
                   <p>
                     <label>Message: </label>
                     <textarea
                       name="message"
-                      className="form-control"
+                      className="form-control p-4"
                       row="6"
                       placeholder="Tell us more about your project, needs, and timeline"
                     ></textarea>

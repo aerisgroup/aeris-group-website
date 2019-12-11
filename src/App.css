@@ -140,6 +140,10 @@ body {
   position: relative;
 }
 
+.service-card p {
+  font-size: 0.8rem;
+}
+
 /*credential*/
 
 #credential {

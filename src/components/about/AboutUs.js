@@ -8,7 +8,7 @@ const AboutUs = () => {
           <div className="main-blue-color py-5 text-white">
             <div className="p-5 text-center">
               <h1 className="display-5">
-                <strong>Our Story</strong>
+                <strong>Who we are</strong>
               </h1>
               <div className="box">
                 <span></span>
