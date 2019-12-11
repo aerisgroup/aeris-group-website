@@ -2,6 +2,12 @@ import React, { Fragment, useState } from "react";
 import ContactMap from "./ContactMap";
 import MapContact from "../util/MapContact";
 
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
 class ContactUs extends React.Component {
   state = {
     name: "",
@@ -56,7 +62,7 @@ class ContactUs extends React.Component {
                       class="form-control"
                       type="email"
                       name="email"
-                      value="email"
+                      value={email}
                       onChange={this.handleChange}
                     />
                   </div>
