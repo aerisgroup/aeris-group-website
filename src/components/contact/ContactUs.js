@@ -2,34 +2,8 @@ import React, { Fragment, useState } from "react";
 import ContactMap from "./ContactMap";
 import MapContact from "../util/MapContact";
 
-const encode = data => {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-};
-
 class ContactUs extends React.Component {
-  state = {
-    name: "",
-    email: "",
-    message: ""
-  };
-
-  handleSubmit = e => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
-    })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
-
-    e.preventDefault();
-  };
-
-  handleChange = e => this.setState({ [e.target.name]: e.target.value });
   render() {
-    const { name, email, message } = this.state;
     return (
       <Fragment>
         <section id="contactUs" className="my-5">
@@ -44,43 +18,28 @@ class ContactUs extends React.Component {
                   </p>
                 </div>
 
-                <form onSubmit={this.handleSubmit}>
-                  <div class="form-group">
-                    <label>Name</label>
-                    <input
-                      class="form-control"
-                      type="text"
-                      name="name"
-                      value={name}
-                      onChange={this.handleChange}
-                    />
-                  </div>
+                {/*this is where the form goes */}
 
-                  <div class="form-group">
-                    <label>Email</label>
-                    <input
-                      class="form-control"
-                      type="email"
-                      name="email"
-                      value={email}
-                      onChange={this.handleChange}
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label>Message</label>
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      value={message}
-                      onChange={this.handleChange}
-                      rows="6"
-                    ></textarea>
-                  </div>
-                  <div class="form-group">
-                    <button class="btn btn-primary btn-block" type="submit">
-                      Send
-                    </button>
-                  </div>
+                <form name="contact" method="post">
+                  <input type="hidden" name="form-name" value="contact" />
+                  <p>
+                    <label>
+                      Your Name: <input type="text" name="name" />
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      Your Email: <input type="email" name="email" />
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      Message: <textarea name="message"></textarea>
+                    </label>
+                  </p>
+                  <p>
+                    <button type="submit">Send</button>
+                  </p>
                 </form>
               </div>
             </section>
