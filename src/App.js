@@ -9,14 +9,6 @@ import AboutUs from "./components/about/AboutUs";
 import ProductAndSolution from "./components/product/ProductAndSolution";
 import ContactUs from "./components/contact/ContactUs";
 
-//import products
-
-import FrozenShippers from "./components/product/aeris-product/FrozenShippers";
-import ChilledShippers from "./components/product/aeris-product/ChilledShippers";
-import AmbientShippers from "./components/product/aeris-product/AmbientShippers";
-import SecondaryPackaging from "./components/product/aeris-product/SecondaryPackaging";
-import DataLoggers from "./components/product/aeris-product/DataLoggers";
-
 import "./App.css";
 
 function App() {

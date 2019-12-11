@@ -62,7 +62,7 @@ const OurService = () => {
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
           title="Leasing Service"
           description="Engineering R&D spearheads the latest packaging solution for the APAC changing market needs."
-          callToAction="lease-service"
+          callToAction="productandsolution/charterpod"
         />
         <ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
