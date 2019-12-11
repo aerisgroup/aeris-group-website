@@ -29,7 +29,7 @@ const ContactUs = props => {
                 </p>
               </div>
 
-              <form action="POST" data-netlify="true">
+              <form name="contact" method="POST" data-netlify="true">
                 <div class="form-group">
                   <label>Name</label>
                   <input
