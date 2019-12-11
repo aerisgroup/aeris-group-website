@@ -1,11 +1,13 @@
 import React, { Fragment, useState } from "react";
 import ContactMap from "./ContactMap";
 import MapContact from "../util/MapContact";
+import ScrollRestoration from "../util/scrollRestoration";
 
 class ContactUs extends React.Component {
   render() {
     return (
       <Fragment>
+        <ScrollRestoration />
         <section id="contactUs" className="my-5">
           <section class="page contact-us-page m-5 ">
             <section class="clean-block clean-form dark">

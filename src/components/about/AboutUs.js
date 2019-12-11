@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import ScrollRestoration from "../util/scrollRestoration";
 
 const AboutUs = () => {
   return (

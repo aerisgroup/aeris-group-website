@@ -1,10 +1,12 @@
 import React from "react";
 import CardFlip from "../../util/CardFlip";
 import ModalCard from "../../util/ModalCard";
+import ScrollRestoration from "../../util/scrollRestoration";
 
 const FrozenShippers = () => {
   return (
     <div>
+      <ScrollRestoration />
       <div className="content">
         <div className="content my-5">
           <div className="container">

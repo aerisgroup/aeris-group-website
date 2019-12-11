@@ -42,7 +42,7 @@ const OurService = () => {
         dotListClass="custom-dot-list-style"
       >
         <ServiceBox
-          image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
+          image={require("../../img/products/frozenShippers/active-shippers.jpg")}
           title="Products"
           description="Cost effective solution and innovations that are proven to maintain temperatures of sensitive payloads well within the specified ranges"
           callToAction="product"
@@ -54,9 +54,9 @@ const OurService = () => {
           callToAction="testing"
         />
         <ServiceBox
-          image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
+          image={require("../../img/landing/AerisGroupDeliveryService.jpg")}
           title="Pickup and Delivery"
-          description="Engineering R&D spearheads the latest packaging solution for the APAC changing market needs."
+          description="At AerisGroup, we have our own pick up and delivery service, so will make sure your product get there safe and sound"
         />
         <ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
@@ -64,12 +64,11 @@ const OurService = () => {
           description="Users like the pay-per-use features, which mean they do not need to worry about managing and disposing of inventory since it is a subscription service"
           callToAction="productandsolution/charterpod"
         />
-
-        <ServiceBox
+        {/*<ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
           title="Conditioning"
           description="Engineering R&D spearheads the latest packaging solution for the APAC changing market needs."
-        />
+        /> */}
       </Carousel>
       <div className="bigColdChainSolutionBox mt-5"></div>
     </div>

@@ -15,40 +15,14 @@ const ServiceBox = ({ image, title, description, callToAction, link }) => {
         {/* */}
         <p className="">{description}</p>
         {!callToAction ? (
-          <Button variant="primary" onClick={handleShow}>
+          <Link to="/contact" className="btn btn-primary">
             Contact Us
-          </Button>
+          </Link>
         ) : (
           <Link to={`/${callToAction}`} className="btn btn-primary">
             Learn More
           </Link>
         )}
-        <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>Contact Us</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <form>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" />
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control"></textarea>
-              </div>
-            </form>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Submit
-            </Button>
-          </Modal.Footer>
-        </Modal>
       </div>
     </div>
   );
