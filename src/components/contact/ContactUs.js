@@ -3,18 +3,6 @@ import ContactMap from "./ContactMap";
 import MapContact from "../util/MapContact";
 
 const ContactUs = props => {
-  const [name, setName] = useState("");
-  const [subject, setSubject] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [mailSent, setMailSent] = useState(false);
-  const [error, setError] = useState(null);
-
-  const handleSubmit = event => {
-    event.preventDefault();
-    alert(`Submitting Name ${name}`);
-  };
-
   return (
     <Fragment>
       <section id="contactUs" className="my-5">
