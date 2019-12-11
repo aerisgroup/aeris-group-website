@@ -51,7 +51,7 @@ const OurService = () => {
           image={require("../../img/landing/ourService/AerisGroupResearchAndDevelopment.jpg")}
           title="Testing and Validation"
           description="Our success is based on innovations in R&D, stringent Testing and Validation regime using our own in-house ESPEC Test Equipment Chamber and backed by independent third-party validation by TÜV SÜD PSB Compliance"
-          callToAction="testing"
+          callToAction="productandsolution/research-and-development"
         />
         <ServiceBox
           image={require("../../img/landing/AerisGroupDeliveryService.jpg")}
