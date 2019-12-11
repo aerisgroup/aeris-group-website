@@ -23,22 +23,42 @@ class ContactUs extends React.Component {
                 <form name="contact" method="post">
                   <input type="hidden" name="form-name" value="contact" />
                   <p>
-                    <label>
-                      Your Name: <input type="text" name="name" />
-                    </label>
+                    <label>Your Name: </label>
+                    <input type="text" name="name" className="form-control" />
                   </p>
                   <p>
-                    <label>
-                      Your Email: <input type="email" name="email" />
-                    </label>
+                    <label>Your Email: </label>
+                    <input type="email" name="email" className="form-control" />
                   </p>
                   <p>
-                    <label>
-                      Message: <textarea name="message"></textarea>
-                    </label>
+                    <label>Your Phone: </label>
+                    <input type="tel" name="phone" className="form-control" />
                   </p>
                   <p>
-                    <button type="submit">Send</button>
+                    <label>Job Title: </label>
+                    <input type="text" name="title" className="form-control" />
+                  </p>
+                  <p>
+                    <label>Country: </label>
+                    <input
+                      type="text"
+                      name="country"
+                      className="form-control"
+                    />
+                  </p>
+                  <p>
+                    <label>Message: </label>
+                    <textarea
+                      name="message"
+                      className="form-control"
+                      row="6"
+                      placeholder="Tell us more about your project, needs, and timeline"
+                    ></textarea>
+                  </p>
+                  <p>
+                    <button type="submit" className="btn btn-primary btn-block">
+                      Send
+                    </button>
                   </p>
                 </form>
               </div>
