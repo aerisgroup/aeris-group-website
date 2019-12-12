@@ -1,5 +1,6 @@
 {
   "name": "aerisgroup",
+  "homepage": "https://www.aeris.com.sg",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
