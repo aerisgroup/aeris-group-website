@@ -123,16 +123,21 @@ const Footer = () => {
               style={{ width: "60px" }}
             />
             <p>
-              <i className="fas fa-home mr-3"></i> New York, NY 10012, US
+              <i className="fas fa-home mr-3"></i> HQ Office : Blk 11 #07-05
+              Kallang Place, Singapore 339155
             </p>
             <p>
-              <i className="fas fa-envelope mr-3"></i> info@example.com
+              <i className="fas fa-envelope mr-3"></i> Mailing : Blk 11 #07-01
+              Kallang Place, Singapore 339155
             </p>
             <p>
-              <i className="fas fa-phone mr-3"></i> + 01 234 567 88
+              <i className="fas fa-phone mr-3"></i> T : 65-62968368
             </p>
             <p>
-              <i className="fas fa-print mr-3"></i> + 01 234 567 89
+              <i className="fas fa-print mr-3"></i> F : 65-62968392
+            </p>
+            <p>
+              <i className="fas fa-envelope mr-3"></i> E : sales@aeris.com.sg
             </p>
           </div>
         </div>
