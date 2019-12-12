@@ -45,7 +45,7 @@ const OurService = () => {
           image={require("../../img/products/frozenShippers/active-shippers.jpg")}
           title="Products"
           description="Cost effective solution and innovations that are proven to maintain temperatures of sensitive payloads well within the specified ranges"
-          callToAction="product"
+          callToAction="productandsolution/frozen-shippers"
         />
         <ServiceBox
           image={require("../../img/landing/ourService/AerisGroupResearchAndDevelopment.jpg")}
