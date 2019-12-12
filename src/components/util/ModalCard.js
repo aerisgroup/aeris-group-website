@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+
 import { Modal } from "react-bootstrap";
 
 const ModalCard = props => {
@@ -11,19 +11,13 @@ const ModalCard = props => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const randomSubject = "hi";
-
-  const email =
-    "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;";
-
-  const subject = `?Subject${randomSubject}`;
   return (
-    <div class="wrapper">
-      <div class="card-flip card">
-        <input type="checkbox" id="hi" class="more" aria-hidden="true" />
-        <div class="content">
-          <div class="front" style={sectionStyle}>
-            <div class="inner">
+    <div className="wrapper">
+      <div className="card-flip card">
+        <input type="checkbox" id="hi" className="more" aria-hidden="true" />
+        <div className="content">
+          <div className="front" style={sectionStyle}>
+            <div className="inner">
               <h2>{props.title}</h2>
 
               <button className="button" onClick={handleShow}>

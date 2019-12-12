@@ -1,6 +1,4 @@
 import React from "react";
-import CardFlip from "../../util/CardFlip";
-import ModalCard from "../../util/ModalCard";
 
 const Charterpod = () => {
   return (
@@ -22,6 +20,7 @@ const Charterpod = () => {
             </p>
 
             <iframe
+              title="charterpod video"
               width="420"
               height="315"
               src="https://youtube.com/embed/ck7aFcq7e9c"

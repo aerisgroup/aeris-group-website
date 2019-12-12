@@ -1,5 +1,5 @@
 import React from "react";
-import CardFlip from "../../util/CardFlip";
+
 import ModalCard from "../../util/ModalCard";
 
 const ChilledShippers = () => {
@@ -52,6 +52,7 @@ const ChilledShippers = () => {
                   <div>
                     <img
                       src={require("../../../img/products/chilledShippers/premiumShippersDetail.png")}
+                      alt="premiumShippersDetail"
                     />
                   </div>
                 </div>
@@ -73,6 +74,7 @@ const ChilledShippers = () => {
                   <div>
                     <img
                       src={require("../../../img/products/chilledShippers/premiumShippersDetail.png")}
+                      alt="premiumShippersDetail"
                     />
                   </div>
                 </div>

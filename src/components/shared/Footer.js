@@ -14,25 +14,25 @@ const Footer = () => {
             </div>
 
             <div className="col-md-6 col-lg-7 text-center text-md-right text-white">
-              <a className="fb-ic">
+              <span>
                 <i className="fab fa-facebook-f white-text mr-4"> </i>
-              </a>
+              </span>
 
-              <a className="tw-ic">
+              <span>
                 <i className="fab fa-twitter white-text mr-4"> </i>
-              </a>
+              </span>
 
-              <a className="gplus-ic">
+              <span>
                 <i className="fab fa-google-plus-g white-text mr-4"> </i>
-              </a>
+              </span>
 
-              <a className="li-ic">
+              <span>
                 <i className="fab fa-linkedin-in white-text mr-4"> </i>
-              </a>
+              </span>
 
-              <a className="ins-ic">
+              <span>
                 <i className="fab fa-instagram white-text"> </i>
-              </a>
+              </span>
             </div>
           </div>
         </div>
@@ -140,10 +140,10 @@ const Footer = () => {
 
       <div className="footer-copyright text-center text-black-50 py-3">
         © 2019 Copyright:
-        <a className="dark-grey-text" href="#">
+        <Link className="dark-grey-text" to="/">
           {" "}
           AerisGroup
-        </a>
+        </Link>
       </div>
     </footer>
   );

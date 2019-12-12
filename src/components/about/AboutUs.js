@@ -4,6 +4,7 @@ import ScrollRestoration from "../util/scrollRestoration";
 const AboutUs = () => {
   return (
     <Fragment>
+      <ScrollRestoration />
       <section id="aboutUs">
         <header>
           <div className="main-blue-color py-5 text-white">
@@ -83,20 +84,20 @@ const AboutUs = () => {
               <div className="col-md-6 d-flex">
                 <div className="align-self-center py-5 my-5 ml-4">
                   <h2 className="display-5 font-weight-bold">Values</h2>
-                  <ul class="list-group">
-                    <li class="list-group-item">
+                  <ul className="list-group">
+                    <li className="list-group-item">
                       Strive for excellence in Customer Satisfaction through
                       providing reliable products and timely services.
                     </li>
-                    <li class="list-group-item">
+                    <li className="list-group-item">
                       Invest in R&D and develop quality innovative products that
                       exceed market expectations.
                     </li>
-                    <li class="list-group-item">
+                    <li className="list-group-item">
                       With our agility and ability in customization, to provide
                       creative and flexible solutions for our customers.
                     </li>
-                    <li class="list-group-item">
+                    <li className="list-group-item">
                       Empower our employees with the right skills set and
                       motivate them to perform with a passionate attitude.
                     </li>

@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from "react";
-import ContactMap from "./ContactMap";
+import React, { Fragment } from "react";
+
 import MapContact from "../util/MapContact";
 import ScrollRestoration from "../util/scrollRestoration";
 
@@ -9,11 +9,11 @@ class ContactUs extends React.Component {
       <Fragment>
         <ScrollRestoration />
         <section id="contactUs" className="my-5">
-          <section class="page contact-us-page m-5 ">
-            <section class="clean-block clean-form dark">
-              <div class="container">
-                <div class="block-heading text-center">
-                  <h2 class="text-info mt-5 pt-5">Contact Us</h2>
+          <section className="page contact-us-page m-5 ">
+            <section className="clean-block clean-form dark">
+              <div className="container">
+                <div className="block-heading text-center">
+                  <h2 className="text-info mt-5 pt-5">Contact Us</h2>
                   <p>
                     Our team is happy to answer your sales questions. Contact
                     the email address below and we will keep touch as soon as

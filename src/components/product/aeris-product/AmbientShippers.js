@@ -1,6 +1,5 @@
 import React from "react";
-import FlipCard from "../../util/FlipCard";
-import CardFlip from "../../util/CardFlip";
+
 import ModalCard from "../../util/ModalCard";
 
 const AmbientShippers = () => {

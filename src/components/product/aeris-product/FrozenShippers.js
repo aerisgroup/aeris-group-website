@@ -1,5 +1,5 @@
 import React from "react";
-import CardFlip from "../../util/CardFlip";
+
 import ModalCard from "../../util/ModalCard";
 import ScrollRestoration from "../../util/scrollRestoration";
 

@@ -4,12 +4,13 @@ const MapContact = props => {
   return (
     <div className="d-flex justify-content-around flex-wrap">
       <iframe
+        title={props.src}
         src={props.src}
         width="450"
         height="300"
-        frameborder="0"
+        frameBorder="0"
         style={{ border: "0" }}
-        allowfullscreen=""
+        allowFullScreen=""
         className="mb-5"
       ></iframe>
       <div className="mb-5" style={{ width: "400px" }}>

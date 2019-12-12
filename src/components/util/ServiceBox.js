@@ -1,15 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { Button, Modal } from "react-bootstrap";
 
 const ServiceBox = ({ image, title, description, callToAction, link }) => {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   return (
     <div className="service-card card my-3 mx-auto" style={{ width: "300px" }}>
-      <img className="card-img-top" src={image} alt="Card image" />
+      <img className="card-img-top" src={image} alt={title} />
       <div className="card-body">
         <h5 className="card-title font-weight-bold">{title}</h5>
         {/* */}
