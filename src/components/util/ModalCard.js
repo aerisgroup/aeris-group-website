@@ -10,6 +10,13 @@ const ModalCard = props => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const randomSubject = "hi";
+
+  const email =
+    "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;";
+
+  const subject = `?Subject${randomSubject}`;
   return (
     <div class="wrapper">
       <div class="card-flip card">
@@ -28,9 +35,12 @@ const ModalCard = props => {
                 </Modal.Header>
                 <Modal.Body>{props.description}</Modal.Body>
                 <Modal.Footer>
-                  <Link to="/contact" className="btn btn-primary mx-auto">
+                  <a
+                    className="btn btn-primary mx-auto"
+                    href="https://aemail.com/BBBk"
+                  >
                     Contact Us
-                  </Link>
+                  </a>
                 </Modal.Footer>
               </Modal>
             </div>

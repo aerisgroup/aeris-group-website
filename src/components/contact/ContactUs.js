@@ -9,6 +9,21 @@ class ContactUs extends React.Component {
       <Fragment>
         <ScrollRestoration />
         <section id="contactUs" className="my-5">
+          <section class="page contact-us-page m-5 ">
+            <section class="clean-block clean-form dark">
+              <div class="container">
+                <div class="block-heading text-center">
+                  <h2 class="text-info mt-5 pt-5">Contact Us</h2>
+                  <p>
+                    Our team is happy to answer your sales questions. Contact
+                    the email address below and we will keep touch as soon as
+                    possible
+                  </p>
+                </div>
+              </div>
+            </section>
+          </section>
+
           <MapContact
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.04710842575!2d103.86832099999998!3d1.3186037046012853!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xba544206b07f1108!2sAeris%20Dynamics%20Pte%20Ltd!5e0!3m2!1sen!2sus!4v1575903726776!5m2!1sen!2sus"
             description={
@@ -20,10 +35,10 @@ class ContactUs extends React.Component {
                 <p>Tel: 65-6296 8368</p>
                 <p>Singapore 339155</p>
                 <a
-                  href="mailto:sales@aeris.com.sg?Subject=Hello%20again"
+                  href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;?Subject=sales question"
                   target="_top"
                 >
-                  sales@aeris.com.sg
+                  &#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;
                 </a>
               </div>
             }
@@ -39,10 +54,10 @@ class ContactUs extends React.Component {
                 <p>Shanghai China 200331</p>
 
                 <a
-                  href="mailto:CNsales@aeris.com.sg?Subject=Hello%20again"
+                  href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#67;&#78;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;?Subject=Hello%20again"
                   target="_top"
                 >
-                  CNsales@aeris.com.sg
+                  &#67;&#78;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;
                 </a>
               </div>
             }
@@ -58,10 +73,10 @@ class ContactUs extends React.Component {
                 <p>Tel: 7303257692</p>
 
                 <a
-                  href="mailto:INsales@aeris.com.sg?Subject=Hello%20again"
+                  href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#73;&#78;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;?Subject=Hello%20again"
                   target="_top"
                 >
-                  INsales@aeris.com.sg
+                  &#73;&#78;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;
                 </a>
               </div>
             }
@@ -77,10 +92,10 @@ class ContactUs extends React.Component {
                 <p>Tel: (82) 7086700535</p>
 
                 <a
-                  href="mailto:KRsales@aeris.com.sg?Subject=Hello%20again"
+                  href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#75;&#82;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;?Subject=Hello%20again"
                   target="_top"
                 >
-                  KRsales@aeris.com.sg
+                  &#75;&#82;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;
                 </a>
               </div>
             }
@@ -96,10 +111,10 @@ class ContactUs extends React.Component {
                 <p>43000 Kajang </p>
                 <p>Selangor Darul Ehsan, Malaysia</p>
                 <a
-                  href="mailto:MYsales@aeris.com.sg?Subject=Hello%20again"
+                  href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#77;&#89;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;?Subject=Hello%20again"
                   target="_top"
                 >
-                  MYsales@aeris.com.sg
+                  &#77;&#89;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;
                 </a>
               </div>
             }
