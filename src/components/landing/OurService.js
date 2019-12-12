@@ -44,6 +44,8 @@ const OurService = () => {
         <ServiceBox
           image={require("../../img/products/frozenShippers/active-shippers.jpg")}
           title="Products"
+          width="298"
+          height="200"
           description="Cost effective solution and innovations that are proven to maintain temperatures of sensitive payloads well within the specified ranges"
           callToAction="productandsolution/frozen-shippers"
         />
@@ -57,12 +59,16 @@ const OurService = () => {
           image={require("../../img/landing/AerisGroupDeliveryService.jpg")}
           title="Pickup and Delivery"
           description="At AerisGroup, we have our own pick up and delivery service, so will make sure your product get there safe and sound"
+          width="298"
+          height="200"
         />
         <ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
           title="Leasing Service"
           description="Users like the pay-per-use features, which mean they do not need to worry about managing and disposing of inventory since it is a subscription service"
           callToAction="productandsolution/charterpod"
+          width="298"
+          height="200"
         />
         {/*<ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}

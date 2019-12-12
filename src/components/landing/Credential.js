@@ -22,6 +22,7 @@ const Credential = () => {
             src={require("../../img/landing/credential/iso-certification.jpg")}
             alt=""
             width="300"
+            height="245"
           />
         </div>
       </div>

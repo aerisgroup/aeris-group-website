@@ -1,10 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ServiceBox = ({ image, title, description, callToAction, link }) => {
+const ServiceBox = ({
+  image,
+  title,
+  description,
+  callToAction,
+  width,
+  height
+}) => {
   return (
     <div className="service-card card my-3 mx-auto" style={{ width: "300px" }}>
-      <img className="card-img-top" src={image} alt={title} />
+      <img
+        className="card-img-top"
+        src={image}
+        alt={title}
+        width={width}
+        height={height}
+      />
       <div className="card-body">
         <h5 className="card-title font-weight-bold">{title}</h5>
         {/* */}
