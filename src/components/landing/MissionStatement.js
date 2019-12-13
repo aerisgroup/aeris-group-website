@@ -2,7 +2,7 @@ import React from "react";
 
 const MissionStatement = () => {
   return (
-    <div className="missionStatement text-dark m-5 p-5">
+    <div className="missionStatement text-dark my-5">
       <div className="container">
         <h3>
           In <span className="main-blue-color">Aeris Group</span>, we understand
