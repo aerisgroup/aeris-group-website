@@ -524,3 +524,13 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #355cc9;
 }
+
+@media screen and (max-width: 768px) {
+  #landing .showcase,
+  #landing .mobile-size-overlay.showcase-mobile,
+  #services .pharmaceuticals-good,
+  #ourService .bigColdChainSolutionBox,
+  #credential .coldChainSolutionParallax {
+    background-attachment: scroll;
+  }
+}
