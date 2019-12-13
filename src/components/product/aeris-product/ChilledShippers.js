@@ -53,6 +53,7 @@ const ChilledShippers = () => {
                     <img
                       src={require("../../../img/products/chilledShippers/premiumShippersDetail.png")}
                       alt="premiumShippersDetail"
+                      className="w-100"
                     />
                   </div>
                 </div>
