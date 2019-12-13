@@ -21,13 +21,17 @@ const Charterpod = () => {
               technology, compared with styrofoam boxes.
             </p>
 
-            <iframe
-              title="charterpod video"
-              height="315"
-              src="https://youtube.com/embed/ck7aFcq7e9c"
-              className="mx-auto d-block w-100"
-              my-5
-            ></iframe>
+            <div class="videoWrapper">
+              <iframe
+                width="560"
+                height="349"
+                src="https://youtube.com/embed/ck7aFcq7e9c"
+                frameborder="0"
+                allowfullscreen="true"
+                webkitallowfullscreen="true"
+                mozallowfullscreen="true"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>

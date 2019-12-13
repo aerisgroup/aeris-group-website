@@ -7,8 +7,8 @@ const MainNavbar = () => {
 
   return (
     <Fragment>
-      <Container>
-        <Navbar bg="light" expand="lg" fixed="top" expanded={expanded}>
+      <Navbar bg="light" expand="lg" fixed="top" expanded={expanded}>
+        <Container>
           <Navbar.Brand>
             <Link to="/" className="navbar-brand">
               AerisGroup
@@ -91,8 +91,8 @@ const MainNavbar = () => {
               </Link>
             </Nav>
           </Navbar.Collapse>
-        </Navbar>
-      </Container>
+        </Container>
+      </Navbar>
     </Fragment>
   );
 };
