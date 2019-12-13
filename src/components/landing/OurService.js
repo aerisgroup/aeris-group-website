@@ -42,7 +42,7 @@ const OurService = () => {
         dotListClass="custom-dot-list-style"
       >
         <ServiceBox
-          image={require("../../img/products/frozenShippers/active-shippers.jpg")}
+          image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
           title="Products"
           width="298"
           height="200"
