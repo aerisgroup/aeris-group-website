@@ -13,7 +13,7 @@ const MapContact = props => {
         allowFullScreen=""
         className="mb-5"
       ></iframe>
-      <div className="mb-5" style={{ width: "400px" }}>
+      <div className="mb-5 p-5" style={{ width: "400px" }}>
         {props.description}
       </div>
     </div>
