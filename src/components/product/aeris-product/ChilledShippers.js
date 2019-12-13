@@ -1,10 +1,12 @@
 import React from "react";
 
 import ModalCard from "../../util/ModalCard";
+import ScrollRestoration from "../../util/scrollRestoration";
 
 const ChilledShippers = () => {
   return (
     <div>
+      <ScrollRestoration />
       <div className="content my-5">
         <div className="container">
           <h2 className="text-center">Chilled Shippers</h2>
@@ -14,7 +16,7 @@ const ChilledShippers = () => {
             that can be maintained product temperature within 2°C to 8°C from 24
             to 120 hours of transit duration both in summer and winter shipments
             with different cool pack configurations. Chill shippers have been
-            classified into four category namely,
+            classified into three category namely,
           </p>
           <div className="d-flex justify-content-around flex-wrap">
             <ModalCard

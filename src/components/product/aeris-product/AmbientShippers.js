@@ -2,9 +2,12 @@ import React from "react";
 
 import ModalCard from "../../util/ModalCard";
 
+import ScrollRestoration from "../../util/scrollRestoration";
+
 const AmbientShippers = () => {
   return (
     <div>
+      <ScrollRestoration />
       <div className="content">
         <div className="content my-5">
           <div className="container">
@@ -65,10 +68,9 @@ const AmbientShippers = () => {
                       to maintain product integrity.
                     </p>
                     <p>
-                      The height of the blanket range from 0.3m to 2.1m and it’s
-                      fully customizable based on customer requirements. It uses
-                      “wrap concept” to assemble which make the packing ultra
-                      friendly.
+                      The blanket comes in full and half pallet sizes to fit
+                      your need. It uses “wrap concept” to assemble which make
+                      the packing ultra friendly.
                     </p>
                     <ul>
                       <li>Tear resistant</li>

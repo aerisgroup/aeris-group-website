@@ -44,7 +44,7 @@ const MainNavbar = () => {
                   to="/productandsolution/data-loggers"
                   className="nav-link mx-4 py-1"
                 >
-                  data-loggers
+                  Data-loggers
                 </Link>
                 <Link
                   to="/productandsolution/charterpod"

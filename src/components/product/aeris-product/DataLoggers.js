@@ -1,9 +1,11 @@
 import React from "react";
 import ModalCard from "../../util/ModalCard";
+import ScrollRestoration from "../../util/scrollRestoration";
 
 const DataLoggers = () => {
   return (
     <div>
+      <ScrollRestoration />
       <div className="content my-5">
         <div className="container">
           <h2 className="text-center">Data Loggers</h2>

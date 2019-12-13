@@ -1,8 +1,10 @@
 import React from "react";
+import ScrollRestoration from "../../util/scrollRestoration";
 
 const Charterpod = () => {
   return (
     <div>
+      <ScrollRestoration />
       <div className="content">
         <div className="content my-5">
           <div className="container">
