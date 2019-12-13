@@ -23,10 +23,9 @@ const Charterpod = () => {
 
             <iframe
               title="charterpod video"
-              width="420"
               height="315"
               src="https://youtube.com/embed/ck7aFcq7e9c"
-              className="mx-auto d-block"
+              className="mx-auto d-block w-100"
               my-5
             ></iframe>
           </div>
