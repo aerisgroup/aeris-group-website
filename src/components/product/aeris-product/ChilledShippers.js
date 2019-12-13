@@ -72,12 +72,7 @@ const ChilledShippers = () => {
                     winter and targeted form 72 to 120 hours duration.
                   </p>
 
-                  <div>
-                    <img
-                      src={require("../../../img/products/chilledShippers/premiumShippersDetail.png")}
-                      alt="premiumShippersDetail"
-                    />
-                  </div>
+                  <div></div>
                 </div>
               }
             />
