@@ -57,6 +57,10 @@ body {
   background-attachment: fixed;
   background-position: center right -9rem;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #landing .mobile-size-overlay.showcase-mobile {
@@ -113,6 +117,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center left;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   position: relative;
 }
@@ -136,6 +144,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center left;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   position: relative;
 }
@@ -275,6 +287,10 @@ body {
 
 #productAndSolution img {
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   object-fit: cover;
   background-position: center bottom;
   margin-top: 1rem;
@@ -338,6 +354,10 @@ body {
 
 .front {
   background-color: #fff;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center center;
 }
