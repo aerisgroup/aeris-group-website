@@ -42,8 +42,9 @@ const FrozenShippers = () => {
                       Shippers with Phase Change Material (PCM) that completely
                       encloses the temperature-sensitive payload without the
                       need for ice, dry ice or cool packs — ensuring stable,
-                      consistent temperature performance within -15oC to -25oC,
-                      available products volume 4.8 L, 21.1 and 46.8 Litres.
+                      consistent temperature performance within -15&#176;C to
+                      -25&#176;C, available products volume 4.8 L, 21.1 and 46.8
+                      Litres.
                     </p>
                   </div>
                 }
@@ -57,9 +58,9 @@ const FrozenShippers = () => {
                       This shipping system specially designed as a pallet
                       shipper for huge bulk shipments ensure safe transport of
                       your large, pallet-size loads of temperature-controlled
-                      goods and solutions available for below -20oC. This system
-                      has been validated for 96-120 hours duration. There are
-                      different sizes of packaging available from 290 to 420
+                      goods and solutions available for below -20&#176;C. This
+                      system has been validated for 96-120 hours duration. There
+                      are different sizes of packaging available from 290 to 420
                       Litres.
                     </p>
                   </div>
