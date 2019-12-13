@@ -6,34 +6,8 @@ const Footer = () => {
     <footer className="page-footer font-small blue-grey lighten-5">
       <div style={{ backgroundColor: "#035ea8" }}>
         <div className="container">
-          <div className="row py-4 d-flex align-items-center">
-            <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 text-white">
-              <h6 className="mb-0">
-                Get connected with us on social networks!
-              </h6>
-            </div>
-
-            <div className="col-md-6 col-lg-7 text-center text-md-right text-white">
-              <span>
-                <i className="fab fa-facebook-f white-text mr-4"> </i>
-              </span>
-
-              <span>
-                <i className="fab fa-twitter white-text mr-4"> </i>
-              </span>
-
-              <span>
-                <i className="fab fa-google-plus-g white-text mr-4"> </i>
-              </span>
-
-              <span>
-                <i className="fab fa-linkedin-in white-text mr-4"> </i>
-              </span>
-
-              <span>
-                <i className="fab fa-instagram white-text"> </i>
-              </span>
-            </div>
+          <div className=" text-center mb-4 mb-md-0 text-white">
+            <h6 className="p-4">We are looking forward to working with you!</h6>
           </div>
         </div>
       </div>
