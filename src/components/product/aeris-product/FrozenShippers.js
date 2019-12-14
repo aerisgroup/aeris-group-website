@@ -26,9 +26,9 @@ const FrozenShippers = () => {
                 description={
                   <div>
                     <p>
-                      General EPS shippers with wide range of product volume
-                      from 2.4 Litres to 148 Litres using dry ice to immerse
-                      products to be shipped under frozen stage during shipment.
+                      General EPS shippers with a wide range of product size
+                      using dry ice to immerse products to be shipped under the
+                      frozen stage during shipment.
                     </p>
                   </div>
                 }
@@ -43,8 +43,7 @@ const FrozenShippers = () => {
                       encloses the temperature-sensitive payload without the
                       need for ice, dry ice or cool packs — ensuring stable,
                       consistent temperature performance within -15&#176;C to
-                      -25&#176;C, available products volume 4.8 L, 21.1 and 46.8
-                      Litres.
+                      -25&#176;C
                     </p>
                   </div>
                 }

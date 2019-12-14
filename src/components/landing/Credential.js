@@ -9,7 +9,7 @@ const Credential = () => {
         </h2>
 
         <h4 className="lead justify">
-          We audited by several leading{" "}
+          We are audited by several leading{" "}
           <span className="font-weight-bold">GDP/GMP</span> pharmaceutical
           companies and have <span className="font-weight-bold">UN/DG</span>{" "}
           certified products that meet stringent shipping regulations by{" "}

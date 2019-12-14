@@ -16,7 +16,7 @@ const AmbientShippers = () => {
               Aeris Ambient shippers are pre-validated containers that can be
               maintained product temperature within 2°C to 25°C or 15°C to 25°C
               from 24 to 120 hours of transit duration both in summer and winter
-              shipments with different conventional cool packs configurations.
+              shipments with different conventional cool pack configurations.
             </p>
             <div className="d-flex justify-content-around flex-wrap">
               <ModalCard
@@ -26,10 +26,9 @@ const AmbientShippers = () => {
                   <div>
                     <p>
                       Aeris Ambient shippers are pre-qualified +15°C to +25°C
-                      shipper series, available in wide range of product volume
-                      from 1 Litre to 90 Litres and validated from 48 to 96
-                      hours of shipping duration using conventional cool packs
-                      to be conditioned at room temperature.
+                      shipper series validated from 48 to 96 hours of shipping
+                      duration using conventional cool packs to be conditioned
+                      at room temperature.
                     </p>
                   </div>
                 }

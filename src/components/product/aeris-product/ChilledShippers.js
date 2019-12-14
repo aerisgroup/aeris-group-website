@@ -25,13 +25,11 @@ const ChilledShippers = () => {
               description={
                 <div>
                   <p>
-                    Standard chill shippers available from 0.3 Litres to 90
-                    Litres in-terms of obtainable product volume, shippers
-                    utilizing a common bill of materials like Expanded Poly
-                    styrene (EPS) and Extruded poly styrene (XPS) as thermal
-                    barrier along with cool packs to ensure the thermal
-                    steadiness of temperature sensitive products from outer
-                    environment temperature.
+                    Standard chill shippers utilize a common bill of materials
+                    like Expanded Poly styrene (EPS) and Extruded poly styrene
+                    (XPS) as thermal barrier along with cool packs to ensure the
+                    thermal steadiness of temperature sensitive products from
+                    outer environment temperature.
                   </p>
                 </div>
               }

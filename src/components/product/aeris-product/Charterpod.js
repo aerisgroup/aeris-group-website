@@ -23,6 +23,7 @@ const Charterpod = () => {
 
             <div class="videoWrapper">
               <iframe
+                title="charterpod"
                 width="560"
                 height="349"
                 src="https://youtube.com/embed/ck7aFcq7e9c"
