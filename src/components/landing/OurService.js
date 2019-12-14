@@ -65,7 +65,7 @@ const OurService = () => {
         <ServiceBox
           image={require("../../img/landing/ourService/ColdChainSolutionDisplay.jpg")}
           title="Leasing Service"
-          description="Users like the pay-per-use features, which mean they do not need to worry about managing and disposing of inventory since it is a subscription service"
+          description="Users like the pay-per-use features, which mean they do not need to worry about managing and disposing of inventory"
           callToAction="productandsolution/charterpod"
           width="298"
           height="200"

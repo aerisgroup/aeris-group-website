@@ -15,10 +15,9 @@ const Charterpod = () => {
             </p>
             <p>
               Users like the pay-per-use features, which mean they do not need
-              to worry about managing and disposing of inventory since it is a
-              subscription service. Most importantly, customers have full
-              assurance that their products are better protected by VIP
-              technology, compared with styrofoam boxes.
+              to worry about managing and disposing of inventory . Most
+              importantly, customers have full assurance that their products are
+              better protected by VIP technology, compared with styrofoam boxes.
             </p>
 
             <div class="videoWrapper">
