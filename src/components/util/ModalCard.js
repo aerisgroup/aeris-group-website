@@ -31,7 +31,7 @@ const ModalCard = props => {
                 <Modal.Footer>
                   <a
                     className="btn btn-primary mx-auto"
-                    href="https://aemail.com/BBBk"
+                    href="https://aemail.cfom/BBBk"
                   >
                     Contact Us
                   </a>
