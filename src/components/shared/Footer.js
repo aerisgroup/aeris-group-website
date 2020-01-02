@@ -90,7 +90,7 @@ const Footer = () => {
             </p>
           </div>*/}
 
-          <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <div className="col-md-5 col-lg-5 col-xl-5 mx-auto mb-md-0 mb-4 ">
             <h6 className="text-uppercase font-weight-bold">Contact</h6>
             <hr
               className="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"

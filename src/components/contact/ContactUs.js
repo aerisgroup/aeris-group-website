@@ -28,8 +28,8 @@ class ContactUs extends React.Component {
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.04710842575!2d103.86832099999998!3d1.3186037046012853!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xba544206b07f1108!2sAeris%20Dynamics%20Pte%20Ltd!5e0!3m2!1sen!2sus!4v1575903726776!5m2!1sen!2sus"
             description={
               <div>
-                <h3>Singpore</h3>
-                <p>Aeris Dyanmic Pte Ltd</p>
+                <h3>Singapore</h3>
+                <p>Aeris Dynamics Pte Ltd</p>
                 <p>Office : Blk 11 #07-05 Kallang Place</p>
                 <p>Mailing : Blk 11 #07-01 Kallang Place</p>
                 <p>Tel: 65-6296 8368</p>

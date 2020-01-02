@@ -30,9 +30,9 @@ const ModalCard = props => {
                 <Modal.Body>{props.description}</Modal.Body>
                 <Modal.Footer>
                   <a
+                    className="btn btn-primary mx-auto"
                     href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#108;&#101;&#115;&#64;&#97;&#101;&#114;&#105;&#115;&#46;&#99;&#111;&#109;&#46;&#115;&#103;?Subject=Sales Question"
                     target="_top"
-                    className="btn btn-primary mx-auto"
                   >
                     Contact Us
                   </a>
